@@ -1,5 +1,7 @@
 type Query {
-    user(id: ID): User!
+    user(id: ID): User
+    userName(id: ID): UserName
+    userNames : [UserName]
 }
 
 type User {
