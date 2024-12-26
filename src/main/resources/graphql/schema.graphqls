@@ -1,0 +1,19 @@
+type Query {
+    user(id: ID): User!
+}
+
+type User {
+    id: ID
+    address: UserAddress
+    name: UserName
+}
+
+type UserAddress {
+    postcode: String
+    firstLine: String
+}
+
+type UserName {
+    first: String
+    last: String
+}

@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: graphql-demo
+  graphql:
+    schema:
+      printer:
+        enabled: true
+    graphiql:
+      enabled: true
